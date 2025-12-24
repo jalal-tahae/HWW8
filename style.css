@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    left: 20%;
+}
+
+.cart {
+    display: flex;
+    width: 200px;
+    height: 500px;
+    background-color: green;
+    margin: 10px;
+    text-align: center;
+    left: 20%;
+}
+
+.container {
+    display: flex;
+    left: 20%;
+}
+
+.chead {
+    left: 20%;
+}
