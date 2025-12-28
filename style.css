@@ -6,10 +6,10 @@
 }
 
 .cart {
-    flex: 0 0 200px;
+    flex: 0 0 250px;
     display: flex;
 
-    height: 350px;
+    height: 365px;
     background-color: rgb(13, 173, 13);
     margin: 10px;
     justify-content: center;
@@ -18,17 +18,30 @@
 
 }
 
+.relative {
+    position: relative;
+    background-color: blueviolet;
+    width: 40px;
+    height: 27px;
+    top: 0;
+    left: 50px;
+
+    border-radius: 3px;
+    text-align: center;
+    border: 2px dotted red;
+}
+
 .container {
     display: flex;
     justify-content: space-around;
-    /* flex-direction: row; */
+
     flex-wrap: wrap;
 
     align-items: start;
     row-gap: 50px;
 
     padding: 15px 0;
-    background: #aaa;
+
 }
 
 .chead {
@@ -45,6 +58,7 @@
 ul>li {
     display: flex;
     margin: 10px;
+    text-align: center;
 }
 
 body {
