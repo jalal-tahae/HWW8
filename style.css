@@ -31,6 +31,22 @@
     border: 2px dotted red;
 }
 
+.relative>svg {
+    position: relative;
+
+
+    top: -20px;
+    left: 25px;
+
+
+    text-align: center;
+
+}
+
+li {
+    justify-content: space-between;
+}
+
 .container {
     display: flex;
 
